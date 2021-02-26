@@ -1,38 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>HTML-FORM</title>
+	<title>Name Input</title>
 </head>
 <body>
+	<div>
+        <form method="post" action="main.php">
+            <fieldset>
+                <legend>Gender</legend>
+                <input type="radio" name="male">Male
+                <input type="radio" name="female">Female
+                <input type="radio" name="other">Other
+            </fieldset>
+            <input type="submit" name="submit" value="submit">
 
-	<form method="post" action="genderCheck.php">
-		<fieldset>
+        </form>
+    </div>
 
-
-			<table>
-
-
-				<tr>
-					<td>Gender:</td>
-					<td><input type="radio" name="gender" value="male"> Male
-						<input type="radio" name="gender" value="female"> Female
-						<input type="radio" name="gender" value="other"> Other
-					</td>
-				</tr>
-
-
-
-
-					<td>
-
-						<input type="submit" name="button" value="Submit">
-
-					</td>
-
-			</table>
-
-		</fieldset>
-
-	</form>
 </body>
 </html>
