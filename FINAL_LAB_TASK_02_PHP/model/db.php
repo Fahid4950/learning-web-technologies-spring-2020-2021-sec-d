@@ -1,6 +1,6 @@
 <?php
 
-	$dbname = "usermgt";
+	$dbname = "product_db";
 	$dbuser	= "root";
 	$dbpass	= "";
 	$host	= "localhost";
